@@ -1,0 +1,53 @@
+	
+	Tenemos la escena del entregable 4 con todos los ejercicios ya hechos.
+	(Mirar enunciado del entregable 4)
+
+	Teclas ya usadas: 	A: girar Morty antihorario
+				D: girar Morty horario
+				M: encender/apagar esquinas de la escena
+				E: encender/apagar linterna del Morty
+				R: reset
+
+	Ejercicios:
+
+	Random:
+	1 - Que al pulsar la tecla "G" se active/desactive el Back-Face-Culling
+	2 - Que al pulsar la tecla "F" se active/desactive el Z-Buffer
+	3 - Que al pulsar la tecla "N" no se pinte el Morty
+	4 - Que al pulsar la tecla "X" se cambie el color de las paredes a uno a elección (y que al volver a pulsar vuelva a como estaba antes)
+
+
+	TGs:
+	1 - Hacer que el Fantasma rote 45º entorno al Morty usando las teclas "Z" antihorario y "C" horario
+	2 - Hacer que el Fantasma suba y baje 0,5 de altura con las teclas "W" y "S"
+	3 - Hacer que el Morty crezca y mengüe 1 unidad de altura (solamente altura) pulsando las teclas "Y" y "H" respectivamente
+
+
+	Cámaras: (Al usar una cámara se han de desactivar las demás!!!) (Cuidado con los Znear y Zfar)
+	prev: Con la tecla "P" cambiar a cámara Perspectiva y con la "O" a Ortogonal.
+	1 - Con la tecla "1": POV Morty (que también rote cuando el Morty rote) (Si has hecho el ejercicio 3 de TGs, hacer que también suba la cámara)
+	2 - Con la tecla "2": POV Fantasma (que rote y se mueva con el Fantasma)
+	3 - Con la tecla "3": Cámara estática en las coordenadas (1,1,1) mirando hacia (9,1,9) (Znear = 0.3)
+	4 - Con la tecla "4": Cámara por defecto en tercera persona
+	5 - En la cámara por defecto, que se haga +zoom y -zoom con las teclas "U" y "J" respectivamente.
+
+
+	Iluminación:
+	1 - Poner un foco de color azul en la posición (2,2,2), que se encienda y se apague con una tecla a elección (No números)
+	2 - Poner un foco de color blanco dentro del fantasma y que lo siga si se mueve el fantasma, que se encienda y se apague con una tecla a elección (No números)
+	3 - Poner un foco de color rojo a distancia 0,5 del Morty y altura 1, que rote respecto a él con las teclas "Flecha Izquierda" y "Flecha Derecha", y que se encienda y se apague con una tecla a elección (No números)
+	4 - Poner un foco de cámara de color blanco, que se encienda y se apague con una tecla a elección (No números)
+		4.1 - Que este foco de cámara cambie de colores con una tecla a elección
+	
+	5 - Que con una tecla a elección se rote entre iluminación Ambiente, Difusa y Especular
+
+
+	QT: (Usar los widgets que más se acomoden al usuario para cada caso (El puto Jordi Luque realmente resta por esto))
+	1 - Usa un widget para encender y apagar las luces de la escena (Las que hay en las esquinas)
+	2 - Usa un widget que haga el reset
+	3 - Añade un widget que diga la posición del fantasma en todo momento (x,y,z)
+	4 - (requiere ejercicio 5 de cámaras previamente) Usa un widget a elección para controlar el zoom en la cámara por defecto
+	5 - (requiere ejercicios de cámaras previamente) Usa RadioButtons para elegir la cámara de la escena
+	6 - Añade un slider y un dial para rotar al Morty, que se actualicen entre sí cuando se use el otro
+	7 - Añade un widget que diga la distancia del Fantasma al Morty en todo momento
+
